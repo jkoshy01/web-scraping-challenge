@@ -3,7 +3,7 @@ Web Scraping Homework - Mission to Mars
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
-Before You Begin
+Before You Start
 
 
 Create a new repository for this project called web-scraping-challenge. Do not add this homework to an existing repository.
@@ -18,7 +18,7 @@ Inside your local git repository, create a directory for the web scraping challe
 Add your notebook files to this folder as well as your flask app.
 
 
-Push the above changes to GitHub or GitLab.
+
 
 
 
@@ -52,16 +52,8 @@ Make sure to find the image url to the full size .jpg image.
 Make sure to save a complete url string for this image.
 
 
-# Example:
+Here is an example:
 featured_image_url = 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA16225_hires.jpg'
-
-Mars Facts
-
-
-Visit the Mars Facts webpage here and use Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
-
-
-Use Pandas to convert the data to a HTML table string.
 
 
 
@@ -79,14 +71,6 @@ Save both the image url string for the full resolution hemisphere image, and the
 
 Append the dictionary with the image url string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
 
-
-# Example:
-hemisphere_image_urls = [
-    {"title": "Valles Marineris Hemisphere", "img_url": "..."},
-    {"title": "Cerberus Hemisphere", "img_url": "..."},
-    {"title": "Schiaparelli Hemisphere", "img_url": "..."},
-    {"title": "Syrtis Major Hemisphere", "img_url": "..."},
-]
 
 
 Step 2 - MongoDB and Flask Application
@@ -111,34 +95,6 @@ Create a template HTML file called index.html that will take the mars data dicti
 
 
 
-
-Step 3 - Submission
-To submit your work to BootCampSpot, create a new GitHub repository and upload the following:
-
-
-The Jupyter Notebook containing the scraping code used.
-
-
-Screenshots of your final application.
-
-
-Submit the link to your new repository to BootCampSpot.
-
-
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-
-
-Hints
-
-
-Use Splinter to navigate the sites when needed and BeautifulSoup to help find and parse out the necessary data.
-
-
-Use Pymongo for CRUD applications for your database. For this homework, you can simply overwrite the existing document each time the /scrape url is visited and new data is obtained.
-
-
-Use Bootstrap to structure your HTML template.
 
 
 
