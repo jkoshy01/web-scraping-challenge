@@ -3,13 +3,13 @@ Web Scraping Homework - Mission to Mars
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
-Before You Start
+Before You Begin
 
 
 Create a new repository for this project called web-scraping-challenge. Do not add this homework to an existing repository.
 
 
-Clone the new repository to your computer.
+Then you will Clone the new repository to your computer.
 
 
 Inside your local git repository, create a directory for the web scraping challenge. Use a folder name to correspond to the challenge: Missions_to_Mars.
